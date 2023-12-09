@@ -1,0 +1,145 @@
+.bookingcontainerin label {
+    width: 100%;
+    text-align: left;
+}
+
+.bookingcontainerin .check-in-wrapper {
+    text-align: left;
+}
+
+.bookingcontainerin .wrapper-more {
+    text-align: left;
+}
+
+body.frontend-page.header-normal.has-search-map .mainfooter {
+    display: none;
+}
+
+body.frontend-page.header-normal.has-search-map .bravo_topbar,
+body.frontend-page.header-normal.has-search-map .bravo_footer {
+    display: none
+}
+
+/* Chrome, Safari, Edge, Opera */
+body.frontend-page.header-normal.has-search-map input::-webkit-outer-spin-button,
+body.frontend-page.header-normal.has-search-map input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+body.frontend-page.header-normal.has-search-map input[type=number] {
+    -moz-appearance: textfield;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    text-align: center;
+    width: 36px;
+    font-size: 18px;
+    color: #5e6d77;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body.frontend-page.header-normal.has-search-map {
+    height: 100%;
+}
+
+body.frontend-page.header-normal.has-search-map>.container-fluid footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.themeForm .form-group {
+    position: relative;
+}
+
+.themeForm .form-group .input-icon {
+    top: 52px;
+    right: 10px;
+}
+
+.themeForm .form-group .input-icon {
+    top: 52px;
+}
+
+.themeForm .form-group.password .input-icon {
+    right: 0px !important;
+}
+ 
+.themeForm .togglePassField {
+    top: 44px; 
+}
+  
+.themeForm .form-group.password .input-icon {
+    top: 0 !important;
+}
+
+.booking-detail .label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.datepicker td,
+.datepicker th {
+    padding: 4px 11px !important;
+    font-size: 13px;
+}
+
+th.datepicker-switch,
+.datepicker tfoot th.clear {
+    padding: 10px !important;
+}
+
+.datepicker-days {
+    padding: 0 5px !important;
+}
+
+.item-loop .price-tab .nav-tabs {
+    margin-top: 15px;
+}
+
+.pro-card .left {
+    width: 100%;
+    float: unset;
+    text-align: center;
+}
+
+.pro-card div.right {
+    position: absolute;
+    font-size: 16px;
+    left: auto;
+    right: -70px;
+    top: -10px;
+    white-space: nowrap;
+    transform: rotate(45deg);
+}
+
+.pro-card .arrow {
+    font-size: 14px;
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.pro-card .right::after {
+    border-width: 15px !important;
+    right: -30px !important;
+    display: none !important;
+}
+
+.promotion {
+    overflow: hidden;
+}
+
+.location-module-nav li a {
+    display: block;
+}
+
+.bravo_wrap .bravo_detail_hotel .bravo_content h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {}
