@@ -79,7 +79,7 @@ Route::group(['prefix' => 'profile'], function () {
     Route::get('/cancel/{gateway}','NormalCheckoutController@cancelPayment')->name('gateway.cancel');
     Route::get('/info','NormalCheckoutController@showInfo')->name('gateway.info'); 
     Route::get('/update-amount','NormalCheckoutController@updateAmount')->name('gateway.update');
-});
+
 Route::post('newsletter/subscribe', 'UserController@subscribe')->name('newsletter.subscribe'); 
 
 
